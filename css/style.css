@@ -1,0 +1,46 @@
+input[type="text"] {
+  border-radius: 15px;
+  border: 4px solid orange;
+  height: 25px;
+  font-size: 1.6em;
+}
+input[type="text"] {
+  outline: none;
+}
+.container {
+  margin: auto;
+  text-align: center;
+  margin-top: 250px;
+}
+.fa-search, .fa-times-circle-o {
+  cursor: pointer;
+}
+.fa-search:hover, .fa-times-circle-o:hover {
+  color: orange;
+}
+
+.wiki-data {
+  padding: 10px;
+}
+.wiki-data a {
+  text-decoration: none;
+}
+.wiki-data:hover {
+  background: #eadbbd;
+}
+.search-input {
+  color: white;
+  text-shadow: 2px 3px 3px #000;
+}
+body {
+  background: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png')
+      center
+      center
+      fixed
+      no-repeat,
+    linear-gradient(to top, #fff , #000) no-repeat;
+  background-size: cover;
+}
+ {
+  display: none;
+}
